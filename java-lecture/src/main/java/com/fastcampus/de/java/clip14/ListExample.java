@@ -23,6 +23,16 @@ public class ListExample {
         System.out.println(list);
 
         int[] intArr = {1,5,4,11,10};
+        intArr[0] = 1;
+        intArr[1] = 5;
+        intArr[2] = 4;
+
+        int[] intArr2 = new int[5];
+        intArr2[0] = intArr[0];
+        intArr2[1] = intArr[1];
+        intArr2[2] = intArr[2];
+        intArr2[3] = 11;
+        intArr2[4] = 10;
 
         for (int i=1;i<list.size(); i++){
             System.out.println(list.get(i));
